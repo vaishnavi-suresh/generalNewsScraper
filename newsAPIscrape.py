@@ -2,7 +2,7 @@ from newsapi import NewsApiClient
 import clickLink as cl
 import threading
 
-newsapi = NewsApiClient(api_key='0c1e4440607a4575970b4540ebc77e8f')
+newsapi = NewsApiClient(api_key='')
 
 query = input('Type a query: ')
 outFile = input('What is the name of the output file you want to store it in?: ')
